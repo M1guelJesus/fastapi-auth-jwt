@@ -3,11 +3,11 @@ requires = ["flit_core>=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "fastapi_jwt_auth"
-dist-name = "fastapi-jwt-auth"
-author = "Nyoman Pradipta Dewantara"
+module = "fastapi_auth_jwt"
+dist-name = "fastapi-auth-jwt"
+author = "Miguel Jesus"
 author-email = "nyomanpradipta120@gmail.com"
-home-page = "https://github.com/IndominusByte/fastapi-jwt-auth"
+home-page = "https://github.com/M1guelJesus/fastapi-auth-jwt"
 
 classifiers = [
   "Environment :: Web Environment",
@@ -16,6 +16,8 @@ classifiers = [
   "Programming Language :: Python :: 3.6",
   "Programming Language :: Python :: 3.7",
   "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
@@ -24,7 +26,7 @@ classifiers = [
 
 requires = [
   "fastapi>=0.61.0",
-  "PyJWT==2.1.0",
+  "PyJWT>=2.1.0",
   "setuptools>=45.2.0"
 ]
 
@@ -32,7 +34,7 @@ description-file = "README.md"
 requires-python = ">=3.6"
 
 [tool.flit.metadata.urls]
-Documentation = "https://indominusbyte.github.io/fastapi-jwt-auth/"
+Documentation = "https://M1guelJesus.github.io/fastapi-jwt-auth/"
 
 [tool.flit.metadata.requires-extra]
 test = [
